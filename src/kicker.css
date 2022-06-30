@@ -1,0 +1,152 @@
+.MuiPickersArrowSwitcher-root {
+    display: none !important;
+}
+.MuiSvgIcon-root{
+    display: none !important;
+}
+/* .css-xpm0df-MuiButtonBase-root-MuiPickersDay-root.Mui-selected {
+    background-color: inherit !important;
+    color: #000000 !important;
+} */
+/* .css-16po2ru-MuiButtonBase-root-MuiPickersDay-root.Mui-selected {
+    background-color: white !important;
+    color: #000000 !important;
+} */
+.css-bkrceb-MuiButtonBase-root-MuiPickersDay-root.Mui-selected {
+    font-weight: 200 !important;
+    background-color: inherit !important;
+    color: #000000 !important;
+}
+.MuiYearPicker-root {
+    flex-wrap: nowrap !important;
+}
+.Year {
+    border-radius: 18px !important;
+    font-size: 1rem !important;
+    margin: 8px 0 !important;
+    height: 36px !important;
+    width: 72px !important;
+    font-family: "Roboto","Helvetica","Arial",sans-serif !important;
+}
+.Back_Next {
+    border-radius: 18px !important;
+    font-size: 1rem !important;
+    margin: 8px 0 !important;
+    height: 36px !important;
+    width: 72px !important;
+    font-family: "Roboto","Helvetica","Arial",sans-serif !important;
+}
+.PastDays {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    color: inherit;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1.66;
+    letter-spacing: 0.03333em;
+    width: 36px;
+    height: 36px;
+    border-radius: 50% !important;
+    padding: 0;
+    /* background-color:rgb(230, 225, 225); */
+    color: rgba(0, 0, 0, 0.87);
+    margin: 0 2px !important;
+}
+
+.FutureDays {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    color: inherit;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1.66;
+    letter-spacing: 0.03333em;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.87);
+    margin: 0 2px !important;
+}
+.today {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    color: inherit;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1.66;
+    letter-spacing: 0.03333em;
+    width: 36px;
+    height: 36px;
+    border-radius: 50% !important;
+    padding: 0;
+    background-color:purple !important;
+    color: white !important;
+    margin: 0 2px !important;
+}
+
+.notInThisMonthDay {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    color: inherit;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1.66;
+    letter-spacing: 0.03333em;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    padding: 0;
+    color: lightgrey !important;
+    margin: 0 2px !important;
+}
+
+.GoodDays {
+    background-color: greenyellow !important;
+}
+.css-1ps6pg7-MuiPaper-root {
+    box-shadow: none !important;
+  }
+
+.css-1v994a0 {
+    color: purple !important;
+    font-weight: 500 !important;
+}
+.css-1w13o7u-MuiTypography-root {
+    color: purple !important;
+    font-weight: 500 !important; 
+}
+.MuiPickersDay-today {
+    color: rgb(55, 197, 20) !important;
+    font-weight: 500 !important; 
+}
