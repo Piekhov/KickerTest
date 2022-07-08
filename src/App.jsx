@@ -1,5 +1,6 @@
 import React from "react";
-import Kicker from "./Kicker";
+// import Kicker from "./Kicker";
+import Calendar from "./Calendar/Calendar";
 // import TestCalendarKicker from './TestCalendarKicker'
 
 
@@ -8,7 +9,8 @@ import Kicker from "./Kicker";
 function App() {
   return (
       <div>
-        <Kicker/>
+        <Calendar/>
+        {/* <Kicker/> */}
         {/* <TestCalendarKicker/> */}
       </div>
   );
