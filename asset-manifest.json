@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/KickerTest/static/css/main.6fada987.css",
-    "main.js": "/KickerTest/static/js/main.3094ff3b.js",
+    "main.js": "/KickerTest/static/js/main.9b7a73d5.js",
     "static/js/787.7cd7955e.chunk.js": "/KickerTest/static/js/787.7cd7955e.chunk.js",
     "index.html": "/KickerTest/index.html",
     "main.6fada987.css.map": "/KickerTest/static/css/main.6fada987.css.map",
-    "main.3094ff3b.js.map": "/KickerTest/static/js/main.3094ff3b.js.map",
+    "main.9b7a73d5.js.map": "/KickerTest/static/js/main.9b7a73d5.js.map",
     "787.7cd7955e.chunk.js.map": "/KickerTest/static/js/787.7cd7955e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6fada987.css",
-    "static/js/main.3094ff3b.js"
+    "static/js/main.9b7a73d5.js"
   ]
 }
