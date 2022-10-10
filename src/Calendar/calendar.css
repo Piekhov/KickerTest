@@ -40,6 +40,11 @@
     /* display: flex;
     flex-direction: row; */
 }
+.weekNames:hover{
+    background-color: grey;
+    border-radius: 25%;
+    color: white;
+}
 .monthNames {
     color: red;
     border-radius: 10%;
@@ -84,6 +89,27 @@
 
    
 }
+.td {
+    padding: 2px 2px;
+    vertical-align: middle;
+    text-align: center;
+    border: 2px solid transparent;
+    height: 23px;
+    width: 29px;
+    margin: auto;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 13px;
+    /* display: flex; */
+    
+}
+.td:hover {
+    background-color: lightgrey;
+    /* color:white; */
+    border-radius: 25%;
+    width: 23px;
+    height: 23px;
+}
 .day {
     padding: 2px 2px;
     vertical-align: middle;
@@ -97,12 +123,16 @@
     font-size: 13px;
     /* display: flex; */
 }
+.today:hover {
+    color: black;
+    background-color: greenyellow;
+}
 .today {
     padding: 2px 2px;
     vertical-align: middle;
     text-align: center;
     border: 2px solid transparent;
-    height: 29px;
+    height: 23px;
     width: 29px;
     margin: auto;
     cursor: pointer;
@@ -110,7 +140,7 @@
     font-size: 13px;
     color:white;
     background-color: red;
-    border-radius: 50%;
+    border-radius: 25%;
     /* display: flex; */
 }
 .daysOutsideCurrentMonth {
@@ -125,6 +155,12 @@
     color: rgb(150, 150, 150);
     font-size: 13px;
     font-weight: 500;
+}
+.daysOutsideCurrentMonth:hover {
+    background-color: lightgrey;
+    color: black;
+    border-radius: 25%;
+    
 }
 .month {
     padding: 8px 8px 8px 8px;
@@ -142,4 +178,22 @@
     background-color:rgb(70, 70, 70) !important;
     color: white !important;
     font-weight: 900 !important;
+}
+.close {
+    
+  }
+.pastDays {
+    padding: 2px 2px;
+    vertical-align: middle;
+    text-align: center;
+    border: 2px solid transparent;
+    height: 23px;
+    width: 29px;
+    margin: auto;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 13px;
+    background-color: lightslategray;
+    border-radius: 50%;
+    /* display: flex; */
 }
