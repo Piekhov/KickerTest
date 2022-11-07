@@ -49,6 +49,7 @@ function Calendar (props) {
      </header>
      <br/>
      <div className='table'>
+      <MonthCalendar newYear = {year} month={month-10} day ={day}/>
       <MonthCalendar newYear = {year} month={month-9} day ={day}/>
       <MonthCalendar newYear = {year} month={month-8} day ={day}/>
       <MonthCalendar newYear = {year} month={month-7} day ={day}/>
@@ -60,8 +61,6 @@ function Calendar (props) {
       <MonthCalendar newYear = {year} month={month-1} day ={day}/>
       <MonthCalendar newYear = {year} month={month} day ={day}/>
       <MonthCalendar newYear = {year} month={month+1} day ={day}/>
-      <MonthCalendar newYear = {year} month={month+2} day ={day}/>
-
      </div>
      
      <br/>
